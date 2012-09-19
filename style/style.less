@@ -1,1 +1,13 @@
-body    { background: black; }
+@mainAsideWidth:    170px;
+@contetnTopOffset:  115px;
+
+
+body                        { background: white; }
+body > aside                { position: absolute; width: @mainAsideWidth; top: @contetnTopOffset; background: red;}
+body > section              { position: absolute; left: @mainAsideWidth; top: @contetnTopOffset; bottom: 0px; right: 15px;
+                              background: green; overflow: auto;  }
+#globalNavigation           { background: black; color: #BBBBBB;}
+
+
+#mainSearch                 { background: #F1F1F1; overflow: hidden;}
+#calendarNavigation         { background: white; }
