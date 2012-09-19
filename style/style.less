@@ -1,13 +1,13 @@
-@mainAsideWidth:    170px;
-@contetnTopOffset:  115px;
+@mainAsideWidth: 170px;
+@mainTopOffset:  115px;
 
 
-body                        { background: white; }
-body > aside                { position: absolute; width: @mainAsideWidth; top: @contetnTopOffset; background: red;}
-body > section              { position: absolute; left: @mainAsideWidth; top: @contetnTopOffset; bottom: 0px; right: 15px;
-                              background: green; overflow: auto;  }
-#globalNavigation           { background: black; color: #BBBBBB;}
+body                           { background: white; }
+body > aside                   { background: yellow; position: absolute; width: @mainAsideWidth; top: @mainTopOffset;}
+body > section                 { background: black; position: absolute; left: @mainAsideWidth; top: @mainTopOffset;
+                                 right: 15px; bottom: 0px; }
 
 
-#mainSearch                 { background: #F1F1F1; overflow: hidden;}
-#calendarNavigation         { background: white; }
+
+
+

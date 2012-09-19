@@ -1,0 +1,8 @@
+@mainAsideWidth: 170px;
+
+#searchGoogle                  { background: #F1F1F1; overflow: hidden;  }
+.googleLogo,
+.search input                  { float: left; width: 510px; height: 30px; }
+.googleLogo                    { width: @mainAsideWidth; }
+.profileMenu                   { float: right; overflow: hidden; color: #666666; text-decoration: none;
+                                 font-family: Arial,sans-serif; font-size: 13px;}
