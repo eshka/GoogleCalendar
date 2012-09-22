@@ -1,0 +1,98 @@
+{
+    "globalNavigation": [
+        {
+            "description" : "+Max",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Search",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Image",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Maps",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Play",
+            "url" : "index.html"
+        },
+        {
+            "description" : "YouTube",
+            "url" : "index.html"
+        },
+        {
+            "description" : "News",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Gmail",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Documents",
+            "url" : "index.html"
+        },
+        {
+            "description" : "Calendar",
+            "url" : "index.html"
+        }
+    ],
+    "more": {
+        "description" : "More",
+        "nav-collapse": [
+            {
+                "title" : "Translate",
+                "url" : "index.html"
+            },
+            {
+                "title" : "Mobile",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Books",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Offers",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Wallet",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Shopping",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Blogger",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Reader",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Finance",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Photos",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Videos",
+                "http" : "index.html"
+            },
+            {
+                "title" : "Event more",
+                "http" : "index.html"
+            }
+        ]
+    }
+
+}

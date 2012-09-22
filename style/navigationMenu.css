@@ -1,8 +1,0 @@
-@mainAsideWidth: 170px;
-
-#mainNavigation                { background: white; }
-#leftNavigation,
-.calendar                      { float: left; }
-
-#rightNavigation               { float: right;}
-.calendar                      { width: @mainAsideWidth; font-size: 16px; color: #DD4B39;}

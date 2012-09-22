@@ -1,0 +1,16 @@
+{{#globalNavigation}}
+        <a href="{{url}}">{{description}}</a>
+{{/globalNavigation}}
+<div class="nav-collapse">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        {{more.description}}
+        <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+       {{#more.nav-collapse}}
+        <li>
+            <a href="{{http}}">{{title}}</a>
+        </li>
+        {{/more.nav-collapse}}
+    </ul>
+</div>

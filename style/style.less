@@ -2,10 +2,15 @@
 @mainTopOffset:  115px;
 
 
-body                           { background: white; }
-body > aside                   { background: yellow; position: absolute; width: @mainAsideWidth; top: @mainTopOffset;}
-body > section                 { background: black; position: absolute; left: @mainAsideWidth; top: @mainTopOffset;
-                                 right: 15px; bottom: 0px; }
+body,
+body > aside,
+body > section                 { background: white; }
+
+body > aside,
+body > section                 { position: absolute; top: @mainTopOffset;}
+
+body > aside                   { width: @mainAsideWidth; }
+body > section                 { left: @mainAsideWidth; right: 15px; bottom: 0px; }
 
 
 
