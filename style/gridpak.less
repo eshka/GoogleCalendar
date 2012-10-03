@@ -1,0 +1,185 @@
+/**
+ * Gridpak Beta LESS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+
+/* Reusable column setup */
+.mixin-col {
+     border:0px solid rgba(0,0,0,0);
+     float:left;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     box-sizing:border-box;
+     -moz-background-clip:padding-box !important;
+     -webkit-background-clip:padding-box !important;
+     background-clip:padding-box !important;
+}
+.col {
+     .mixin-col;
+}
+
+.mixin-grid(@num, @gutter_pc, @gutter_px, @padding, @max_columns) {
+    @one_col: (100% - (@gutter_pc * (@max_columns - 1))) / @max_columns;
+    width:(@one_col * @num) + (@gutter_pc * (@num - 1));
+    border-left-width:@gutter_px;
+    padding:@padding;
+    margin-left:@gutter_pc;
+}
+.mixin-grid_first {
+    margin-left:0;
+}
+ 
+ 
+
+    /* 1. 28 Column Grid 0px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    grid 1:    3.57142857143%
+    grid 2:    7.14285714286%
+    grid 3:    10.7142857143%
+    grid 4:    14.2857142857%
+    grid 5:    17.8571428571%
+    grid 6:    21.4285714286%
+    grid 7:    25.0%
+    grid 8:    28.5714285714%
+    grid 9:    32.1428571429%
+    grid 10:    35.7142857143%
+    grid 11:    39.2857142857%
+    grid 12:    42.8571428571%
+    grid 13:    46.4285714286%
+    grid 14:    50.0%
+    grid 15:    53.5714285714%
+    grid 16:    57.1428571429%
+    grid 17:    60.7142857143%
+    grid 18:    64.2857142857%
+    grid 19:    67.8571428571%
+    grid 20:    71.4285714286%
+    grid 21:    75.0%
+    grid 22:    78.5714285714%
+    grid 23:    82.1428571429%
+    grid 24:    85.7142857143%
+    grid 25:    89.2857142857%
+    grid 26:    92.8571428571%
+    grid 27:    96.4285714286%
+    grid 28:    100%
+    
+    ----------------------------------------------------------------------------- */	
+    
+	@media screen and (min-width: 0px) {
+        
+        .col {
+            margin-left:0%;
+            padding:0 1px;
+        }
+        
+        /* --- Gridpak variables ---*/ 
+        @max_columns: 28;
+        @padding: 0 1px;
+        @gutter_px: 0;
+        @gutter_pc: 0%;
+        
+
+        
+        .grid_row .col:first-child {
+            .mixin-grid_first;
+        }
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding grids here. e.g.
+        
+        .grid_3,
+        .my_semantic_class_name {
+            ...
+        }
+        
+        */
+        .grid_1 {
+            .mixin-grid(1, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_2 {
+            .mixin-grid(2, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_3 {
+            .mixin-grid(3, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_4 {
+            .mixin-grid(4, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_5 {
+            .mixin-grid(5, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_6 {
+            .mixin-grid(6, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_7 {
+            .mixin-grid(7, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_8 {
+            .mixin-grid(8, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_9 {
+            .mixin-grid(9, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_10 {
+            .mixin-grid(10, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_11 {
+            .mixin-grid(11, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_12 {
+            .mixin-grid(12, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_13 {
+            .mixin-grid(13, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_14 {
+            .mixin-grid(14, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_15 {
+            .mixin-grid(15, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_16 {
+            .mixin-grid(16, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_17 {
+            .mixin-grid(17, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_18 {
+            .mixin-grid(18, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_19 {
+            .mixin-grid(19, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_20 {
+            .mixin-grid(20, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_21 {
+            .mixin-grid(21, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_22 {
+            .mixin-grid(22, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_23 {
+            .mixin-grid(23, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_24 {
+            .mixin-grid(24, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_25 {
+            .mixin-grid(25, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_26 {
+            .mixin-grid(26, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_27 {
+            .mixin-grid(27, @gutter_pc, @gutter_px, @padding, @max_columns);
+        }
+        .grid_28 {
+            .mixin-grid_first;
+            width:100%;
+        }
+    }
+
